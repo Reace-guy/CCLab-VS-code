@@ -1,0 +1,19 @@
+p {
+    background-color: rgb(208, 177, 177);
+    color: hsla(240, 43%, 16%, 0.486);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.deco1 {
+    color: bisque;
+}
+
+.deco2 {
+    color: aqua;
+}
+
+.deco3 {
+    color: azure;
+}
