@@ -1,4 +1,12 @@
 html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
 .container {
     height: 100vh;
     width: 100%;
@@ -9,21 +17,6 @@ html,
     padding-right: 5%;
     box-sizing: border-box;
     position: relative;
-    opacity: 90%;
-
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: none;
-}
-
-canvas {
-    display: flexbox;
-    margin-bottom: 100px;
 }
 
 .container1 {
@@ -52,4 +45,9 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+canvas {
+    display: flexbox;
+    margin-bottom: 100px;
 }
